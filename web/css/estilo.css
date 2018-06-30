@@ -1,0 +1,33 @@
+/*
+*/
+#divA{
+    height: 150px;
+    background-color:green;
+}
+#divB{
+    height: 150px;
+    background-color:#bd2130;
+}
+#divC{
+    height: 150px;
+    background-color:#ececf6;
+}
+#divD{
+    height: 200px;
+    background-color: rosybrown;
+}
+#divE{
+    height: 500px;
+    background-color: white;
+}
+#divF{
+    height: 500px;
+    background-color: green;
+}
+#divG{
+    height: 200px;
+    background-color: black;
+}
+img{
+    max-height: 500px;
+}
