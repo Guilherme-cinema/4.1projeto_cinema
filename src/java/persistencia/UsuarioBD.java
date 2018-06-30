@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class UsuarioBD {
     
-    private static String caminho = "C:\\Users\\guilherme martins pe\\Desktop\\3° Trab\\26.6_ProvaLP_DaniloSantos2GTI//";
+    private static String caminho = "C:\\Users\\guilherme martins pe\\Desktop\\3° Trab\\3°Av_proj_Cine//";
     
     private static ArrayList<Usuario> lista = new ArrayList<Usuario>();
     //adiciona um objeto da classe Usuario 
