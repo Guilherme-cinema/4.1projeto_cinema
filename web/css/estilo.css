@@ -2,7 +2,7 @@
 */
 #divA{
     height: 150px;
-    background-color:green;
+    background-color:white;
 }
 #divB{
     height: 150px;
@@ -14,7 +14,7 @@
 }
 #divD{
     height: 200px;
-    background-color: rosybrown;
+    background-color: #d4edda;
 }
 #divE{
     height: 500px;
@@ -27,7 +27,4 @@
 #divG{
     height: 200px;
     background-color: black;
-}
-img{
-    max-height: 500px;
 }

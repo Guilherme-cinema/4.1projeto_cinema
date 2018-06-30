@@ -1,10 +1,18 @@
 <list>
   <usuario>
-    <codigo>8</codigo>
-    <endereco>Beco Vila Nova</endereco>
+    <codigo>9</codigo>
+    <endereco>Rua Batista das Neves</endereco>
     <sexo>M</sexo>
-    <nome>sssssssssferfee</nome>
-    <apelido>iuh!g</apelido>
-    <idade>70</idade>
+    <nome>guiguigiugig</nome>
+    <apelido>iu!hg</apelido>
+    <idade>6</idade>
+  </usuario>
+  <usuario>
+    <codigo>10</codigo>
+    <endereco>Rua Batista das Neves</endereco>
+    <sexo>F</sexo>
+    <nome>ddd33355555</nome>
+    <apelido>iuhg!</apelido>
+    <idade>4</idade>
   </usuario>
 </list>

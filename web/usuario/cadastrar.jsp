@@ -15,25 +15,15 @@
         <link href="../css/estilo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div class="container-fluid" id="geral">
-            <div class="row">
-                <div id="divA" class="col">
-                    DIVA
-                </div>
-                <div id="divB" class="col">
-                    DIVB
-                </div>
-                <div id="divC" class="col">
-                    DIVC
-                </div>
-            </div>
-        </div>
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
             <a class="navbar-brand" href="#">ProvaLP</a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -48,6 +38,21 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="container-fluid" id="geral">
+            <div class="row">
+                <div id="divA" class="col">
+                    DIVA
+                </div>
+                <div id="divB" class="col">
+                    DIVB
+                </div>
+                <div id="divC" class="col">
+                    DIVC
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <div id="divE" class="col-sm-12 d-none d-sm-block">
                 <%
@@ -68,7 +73,7 @@
                                 },
                                 apelido: {
                                     temExclamacao: true
-                                   
+
                                 },
                                 endereco: {
                                     required: true,

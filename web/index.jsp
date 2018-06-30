@@ -14,52 +14,64 @@
         <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">ProvaLP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.jsp">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="usuario/cadastrar.jsp" role="button">Cadastrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="usuario/listar.jsp" role="button">Listar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="container-fluid" id="geral">
             <div class="row">
                 <div id="divA" class="col">
                     DIVA
                 </div>
+                
                 <div id="divB" class="col">
-                    DIVB
+                    <img class="img-fluid w-100" src="image/login.png" alt="deserto" width="1000" height="500"/>
                 </div>
+                
                 <div id="divC" class="col">
                     DIVC
                 </div>
             </div>
         </div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a class="navbar-brand" href="#">ProvaLP</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSite">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.jsp">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary" href="usuario/cadastrar.jsp" role="button">Cadastrar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary" href="usuario/listar.jsp" role="button">Listar</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="row">
-                <div id="divE" class="col-sm-6 d-none d-sm-block">
-                    <iframe class="w-100" height="500" src="https://www.youtube.com/embed/cHpJ9f63XVw" 
-                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <div id="divF" class="col-sm-6 d-none d-sm-block">
-                    <img class="img-fluid w-100" src="image/Desert.jpg" alt="deserto"/>
-                </div>
+       
+        <div class="row">
+            
+            <div id="divE" class="col-sm-6 d-none d-sm-block">
+                <iframe class="w-100" height="500" src="https://www.youtube.com/embed/cHpJ9f63XVw" 
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+
+                </iframe>
             </div>
-            <div class="row">
-                <div id="divG" class="col">
-                    DIVG
-                </div>
-            </div>    
+            
+            <div id="divF" class="col-sm-6 d-none d-sm-block">
+                
+           </div>
+        </div>
+        
+        
+        
+        
+        <div class="row">
+            <div id="divG" class="col">
+                DIVG
+            </div>
+        </div>    
 
     </body>
 </html>
