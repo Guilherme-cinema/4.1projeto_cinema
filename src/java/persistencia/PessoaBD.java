@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class PessoaBD {
     
-    private static String caminho = "C:\\Users\\guilherme martins pe\\Desktop\\3° Trab\\3°Av_proj_Cine//";
+    private static String pessoacaminho = "C:\\Users\\guilherme martins pe\\Desktop\\3° Trab\\3°Av_proj_Cine//";
     
     private static ArrayList<Pessoa> lista = new ArrayList<Pessoa>(); 
     //adiciona um objeto da classe Usuario 
@@ -80,7 +80,7 @@ public class PessoaBD {
     
     
     private static void lerXml(){
-        File arquivo=new File(caminho + "usuarioes.xml");
+        File arquivo=new File(pessoacaminho + "pessoaes.xml");
         if (arquivo.exists()){
             //armazenar XML no vetor
             XStream xstream=new XStream();
@@ -95,7 +95,7 @@ public class PessoaBD {
         XStream xstream = new XStream();
         xstream.alias("usuario",Pessoa.class);
         try{
-            FileWriter escritor=new FileWriter(caminho + "usuarioes.xml");
+            FileWriter escritor=new FileWriter(pessoacaminho + "pessoaes.xml");
             escritor.write( xstream.toXML(lista) );
             escritor.close();
         }catch(Exception ex){

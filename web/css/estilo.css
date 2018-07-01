@@ -18,13 +18,10 @@
 }
 #divE{
     height: 500px;
-    background-color: white;
+    background-color: #bd2130;
 }
-#divF{
-    height: 500px;
-    background-color: green;
-}
-#divG{
-    height: 200px;
+
+#rodape{
+    height: 300px;
     background-color: black;
 }

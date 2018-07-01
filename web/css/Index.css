@@ -1,0 +1,31 @@
+
+
+
+
+
+.btn-lupa > img{
+    width: 25px;
+    height: 25px;
+   }
+
+#vazio_esquerdo{
+    height: 150px;
+    background-color:#00ff66;
+}
+#logo{
+    height: 150px;
+    background-color:#007bff;
+}
+#vazio_direto{
+    height: 150px;
+    background-color:#00ff66;
+}
+conteudo{
+  height: 700px;
+  background-color: #00ff66;  
+}
+
+#rodape{
+    height: 300px;
+    background-color: black;
+}

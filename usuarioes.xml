@@ -1,18 +1,10 @@
 <list>
   <usuario>
-    <codigo>9</codigo>
-    <endereco>Rua Batista das Neves</endereco>
+    <codigo>15</codigo>
+    <endereco>Rua Vereador Guilherme Bittencourt Ferraz</endereco>
     <sexo>M</sexo>
     <nome>guiguigiugig</nome>
-    <apelido>iu!hg</apelido>
-    <idade>6</idade>
-  </usuario>
-  <usuario>
-    <codigo>10</codigo>
-    <endereco>Rua Batista das Neves</endereco>
-    <sexo>F</sexo>
-    <nome>ddd33355555</nome>
     <apelido>iuhg!</apelido>
-    <idade>4</idade>
+    <idade>3</idade>
   </usuario>
 </list>
