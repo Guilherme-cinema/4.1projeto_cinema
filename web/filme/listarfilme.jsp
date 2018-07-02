@@ -1,6 +1,8 @@
-<%@page import="persistencia.UsuarioBD"%>
+<%@page import="persistencia.FilmeBD"%>
+<%@page import="dominio.Filme"%>
+
 <%@page import="java.util.ArrayList"%>
-<%@page import="dominio.Usuario"%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -46,34 +48,35 @@
                 </div>
             </nav>
         <%
-            ArrayList<Usuario> lista = UsuarioBD.listar();
+            ArrayList<Filme> lista = FilmeBD.listaF();
         %>
+        
         <table class="table">
             <thead class="thead-dark">
                 <tr>
                     <th scope="col">Código</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Endereço</th>
-                    <th scope="col">Apelido</th>
-                    <th scope="col">Idade</th>
-                    <th scope="col">Sexo</th>
-                    <th scope="col">Links</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Sinopse</th>
+                    <th scope="col">genero</th>
+                    <th scope="col">foto</th>
+                    <th scope="col">link</th>
+                    <th scope="col">apagar</th>
                 </tr>
             </thead>
             <tbody> 
                 <%
                     for (int i = 0; i < lista.size(); i++) {
-                        Usuario cadaUsuario = lista.get(i);
+                        Filme cadaFilme = lista.get(i);
                 %>
                 <tr>
-                    <td><%=cadaUsuario.getCodigo()%></td>
-                    <td><%=cadaUsuario.getNome()%></td>
-                    <td><%=cadaUsuario.getEndereco()%></td>
-                    <td><%=cadaUsuario.getApelido()%></td>
-                    <td><%=cadaUsuario.getIdade()%></td>
-                    <td><%=cadaUsuario.getSexo()%></td>
+                    <td><%=cadaFilme.getCodigo()%></td>
+                    <td><%=cadaFilme.getTitulo()%></td>
+                    <td><%=cadaFilme.getSinopse()%></td>
+                    <td><%=cadaFilme.getGenero()%></td>
+                    <td><%=cadaFilme.getFoto()%></td>
+                    <td><%=cadaFilme.getLinkTrailer()%></td>
                     <td>
-                        <a href="excluir.jsp?codigo=<%=cadaUsuario.getCodigo()%>" onclick="return confirm('Deseja realmente excluir?')">Excluir</a>
+                        <a href="excluir.jsp?codigo=<%=cadaFilme.getCodigo()%>" onclick="return confirm('Deseja realmente excluir?')">Excluir</a>
                     </td>
                 </tr>
                 <%

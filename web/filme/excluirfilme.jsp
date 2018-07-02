@@ -1,6 +1,6 @@
-<%@page import="persistencia.UsuarioBD"%>
+<%@page import="persistencia.FilmeBD"%>
 <%
 String codigo = request.getParameter("codigo");
-UsuarioBD.excluir(Integer.parseInt(codigo));
+FilmeBD.excluir(Integer.parseInt(codigo));
 response.sendRedirect("listar.jsp");
 %>

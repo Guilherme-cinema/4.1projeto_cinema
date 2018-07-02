@@ -95,7 +95,7 @@ public class UsuarioBD {
         XStream xstream = new XStream();
         xstream.alias("usuario",Usuario.class);
         try{
-            FileWriter escritor=new FileWriter(caminho + "usuarioes.xml");
+            FileWriter escritor = new FileWriter(caminho + "usuarioes.xml");
             escritor.write( xstream.toXML(lista) );
             escritor.close();
         }catch(Exception ex){

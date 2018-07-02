@@ -11,15 +11,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
 
-        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <script type="../text/javascript" src="js/jquery-3.3.1.min.js"></script>
-        <script type="../text/javascript" src="js/bootstrap.min.js"></script>
-        <script src="../js/validation/jquery.validate.min.js" type="text/javascript"></script>
-        <script src="../js/validation/localization/messages_pt_BR.js" type="text/javascript"></script>
-        <script src="../js/validation/validacao.js" type="text/javascript"></script>
-        <script src="../js/pesq/pesq.js" type="text/javascript"></script>
-        <link href="../css/IFilme.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/estilo.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script type="../../text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="../../text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="../../js/validation/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="../../js/validation/localization/messages_pt_BR.js" type="text/javascript"></script>
+        <script src="../../js/validation/validacao.js" type="text/javascript"></script>
+        <script src="../../js/pesq/pesq.js" type="text/javascript"></script>
+        
+        <link href="../../css/IFilme.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/estilo.css" rel="stylesheet" type="text/css"/>
 
 
 
@@ -101,8 +102,8 @@
                         <div class="thumbnail col col- ">
 
                             <figure class="text-center">
-                                <img src="../img/filmes/DeadPool.jpg" alt="" width="220" height="250"/>
-                            </figure>
+                                <img src="../../img/filmes/DeadPool.jpg" alt="" width="220" height="250"/>
+                           </figure>
 
                             <div class="">
                                 <a href="informe_cerveja/tradicionais/normais_23.html" >dead pool</a> 
@@ -115,7 +116,7 @@
                         <div class="" >
                             <div class="">
                                 <figure class="text-center">
-                                    <img src="../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
+                                    <img src="../../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
                                 </figure>
                                 <div class="caption">
                                     <a href="informe_cerveja/tradicionais/normais_24.html" class="text-center">dead pool 2</a> 
@@ -128,7 +129,7 @@
                         <div class="" >
                             <div class="">
                                 <figure class="text-center">
-                                    <img src="../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
+                                    <img src="../../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
                                 </figure>
                                 <div class="caption">
                                     <a href="informe_cerveja/tradicionais/normais_22.html" class="text-center">sei que la</a> 
@@ -141,7 +142,7 @@
                         <div class=" " >
                             <div class="">
                                 <figure class="text-center">
-                                    <img src="../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
+                                    <img src="../../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
                                 </figure>
                                 <div class="caption">
                                     <a href="informe_cerveja/tradicionais/normais_21.html" class="text-center">eai man</a> 
@@ -155,7 +156,7 @@
                         <div class=" " >
                             <div class="">
                                 <figure class="text-center">
-                                    <img src="../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
+                                    <img src="../../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
                                 </figure>
                                 <div class="caption">
                                     <a href="informe_cerveja/tradicionais/normais_21.html" class="text-center">o sam é bravo</a> 
@@ -169,7 +170,7 @@
                         <div class=" " >
                             <div class="">
                                 <figure class="text-center">
-                                    <img src="../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
+                                    <img src="../../img/filmes/DeadPool.jpg" alt="" width="250" height="250"/>
                                 </figure>
                                 <div class="caption">
                                     <a href="informe_cerveja/tradicionais/normais_21.html" class="text-center">ozzydeia</a> 
