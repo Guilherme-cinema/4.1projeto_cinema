@@ -1,5 +1,16 @@
+/* BORDA EM VOLTA DOS FILMES*/
+.bloco_filme{
+    text-align: center;
+    height: 130PX;
+    border: 1px solid #000;
+}
 
+.centralizar{
+    text-align: center;
+  
+}
 
+/*fim*/
 
 
 
