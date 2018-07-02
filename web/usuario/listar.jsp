@@ -27,24 +27,24 @@
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a class="navbar-brand" href="#">ProvaLP</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSite">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">                     
-                            <a class="nav-link" href="../index.jsp">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary" href="cadastrar.jsp" role="button">Cadastrar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary" href="listar.jsp" role="button">Listar</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <a class="navbar-brand" href="#">ProvaLP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">                     
+                        <a class="nav-link" href="../index.jsp">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="cadastrar.jsp" role="button">Cadastrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="listar.jsp" role="button">Listar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <%
             ArrayList<Usuario> lista = UsuarioBD.listar();
         %>
@@ -53,11 +53,10 @@
                 <tr>
                     <th scope="col">Código</th>
                     <th scope="col">Nome</th>
-                    <th scope="col">Endereço</th>
-                    <th scope="col">Apelido</th>
-                    <th scope="col">Idade</th>
-                    <th scope="col">Sexo</th>
-                    <th scope="col">Links</th>
+                    <th scope="col">E-mail</th>
+                    <th scope="col">Data Nascimento</th>
+                    <th scope="col">Senha</th>
+                    
                 </tr>
             </thead>
             <tbody> 
@@ -68,10 +67,9 @@
                 <tr>
                     <td><%=cadaUsuario.getCodigo()%></td>
                     <td><%=cadaUsuario.getNome()%></td>
-                    <td><%=cadaUsuario.getEndereco()%></td>
-                    <td><%=cadaUsuario.getApelido()%></td>
-                    <td><%=cadaUsuario.getIdade()%></td>
-                    <td><%=cadaUsuario.getSexo()%></td>
+                    <td><%=cadaUsuario.getEmail()%></td>
+                    <td><%=cadaUsuario.getData()%></td>
+                    <td><%=cadaUsuario.getSenha()%></td>
                     <td>
                         <a href="excluir.jsp?codigo=<%=cadaUsuario.getCodigo()%>" onclick="return confirm('Deseja realmente excluir?')">Excluir</a>
                     </td>

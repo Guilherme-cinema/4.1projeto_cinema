@@ -18,7 +18,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
-            <a class="navbar-brand" href="#">ProvaLP</a>
+            <a class="navbar-brand" href="#">Cine Play</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
                 <span class="navbar-toggler-icon"></span>
@@ -68,22 +68,23 @@
                         $("#formCadastro").validate({
                             rules: {
                                 nome: {
+                                    espaco: true,
+                                    required: true,
                                     maxlength: 100,
                                     minlength: 10
                                 },
-                                apelido: {
-                                    temExclamacao: true
-
+                                email: {
+                                    required: true,
+                                    temExclamacao: true,
+                                    temPonto: true
                                 },
-                                endereco: {
+                                data: {
                                     required: true,
                                     maxlength: 100
                                 },
-                                sexo: {
+                                senha: {
                                     required: true,
-                                    espaco: true
-                                },
-                                idade: {
+                                    minlength: 8;
                                     max: 100
                                 }
                             }
@@ -103,30 +104,23 @@
                                     <input type="text" class="form-control" name="nome" placeholder="Digite seu Nome" value=""/>
                                 </div>
                                 <div class="form-group col-sm-6">
-                                    <label>Endereço</label>
-                                    <input type="text" class="form-control" name="endereco" placeholder="Digite seu Endereço" value=""/>
+                                    <label>E-mail</label>
+                                    <input type="text" class="form-control" name="email" placeholder="Email" value=""/>
                                 </div>
                             </div>
                             <div class="form-row">
+
                                 <div class="form-group col-sm-6">
-                                    <label>Apelido</label>
-                                    <input type="text" class="form-control" name="apelido" placeholder="Apelido" value=""/>
+                                    <label>Data Nascimento</label>
+                                    <input type="date" class="form-control" name="data" value=""/>
                                 </div>
+
                                 <div class="form-group col-sm-6">
-                                    <label>Idade</label>
-                                    <input type="number" class="form-control" name="idade" value=""/>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-sm-6">
-                                    <label>Sexo</label>
-                                    <select class="form-control" name="sexo">
-                                        <option value="">Selecione uma opção</option>
-                                        <option value="M">Masculino</option>
-                                        <option value="F">Feminino</option>
-                                    </select>
+                                    <label>Senha</label>
+                                    <input type="password" class="form-control" name="senha" placeholder="Digite uma Senha" value=""/>
                                 </div>
                             </div>
+
                             <input class="btn btn-primary" type="submit" value="Salvar"/>
                         </form>
                     </div>

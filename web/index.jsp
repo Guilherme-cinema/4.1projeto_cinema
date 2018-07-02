@@ -18,6 +18,69 @@
         <!--Login -->
         <script src="login/login.js" type="text/javascript"></script>
         <link href="login/login.css" rel="stylesheet" type="text/css"/>
+
+        <style>
+
+            section.homepage-slider {
+                display:none;
+            }
+
+            .flexslider {margin:0;padding:0;}
+
+            .flexslider.slides {zoom:1;background:url(../img/loader.gif)center no-repeat}
+
+            section.homepage-slider div.intro{
+                position:absolute;
+                top:20%;
+                left:7%;
+                opacity:.7;
+            }    
+
+        </style>
+
+        <style>
+            .iconefavoritar:hover {
+                -webkit-transition: all 0.2s linear;
+                -moz-transition: all 0.2s linear;
+                -o-transition: all 0.2s linear;
+                -ms-transition: all 0.2s linear;
+                transition: all 1.0s linear;
+                font-size: 17px;
+            }
+        </style>
+        <style>
+
+            section.homepage-slider {
+                display:none;
+            }
+
+            .flexslider {margin:0;padding:0;}
+
+            .flexslider.slides {zoom:1;background:url(../img/loader.gif)center no-repeat}
+
+            section.homepage-slider div.intro{
+                position:absolute;
+                top:20%;
+                left:7%;
+                opacity:.7;
+            }    
+
+        </style>
+
+        <script type="text/javascript">
+            $(function () {
+                $(document).ready(function () {
+                    $('.flexslider').flexslider({
+                        animation: "fade",
+                        slideshowSpeed: 4000,
+                        animationSpeed: 600,
+                        controlNav: false,
+                        directionNav: true,
+                        controlsContainer: ".flex-container" // the container that holds the flexslider
+                    });
+                });
+            });
+        </script>
     </head>
     <body>
 
@@ -72,7 +135,8 @@
 
                     <div id="id01" class="modal">
 
-                        <form class="modal-content animate" action="/action_page.php">
+                        <form class="modal-content animate" action="login/login.jsp">
+
                             <div class="imgcontainer">
                                 <span onclick="document.getElementById('id01').style.display = 'none'" class="close" title="Close Modal">&times;</span>
                                 <img src="login/img/log_cine.png" alt="login" class="avatar">
@@ -110,7 +174,32 @@
         <div class="row">
             <div id="conteudo" class="col col-12 col-lg-12 col-md-12 col-sm-12">
 
+                <%------ BANNER COM IMAGENS SLIDE---------%>
+                <section class="homepage-slider" id="home-slider">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <a href="#">
+                                    <img src="img/lupa.png" alt="" /></a>
+                                <div class="intro">
+                                    <h1>Garimpo moda retro</h1>
+                                    <p><span>fazemos seu estilo</span></p>
 
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/lupa.png" alt="" /></a>
+
+                                <div class="intro">
+                                    <h1>Não usa mais sua roupa?</h1>
+                                    <p><span>venda no Garimpo</span></p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
 
             </div>
         </div>

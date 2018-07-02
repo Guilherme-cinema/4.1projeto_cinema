@@ -1,11 +1,12 @@
 <%@page import="persistencia.UsuarioBD"%>
 <%@page import="dominio.Usuario"%>
 <%
+    
 String nome = request.getParameter("nome");
-String endereco = request.getParameter("endereco");
-String apelido = request.getParameter("apelido");
-String idade = request.getParameter("idade");
-String sexo = request.getParameter("sexo");
+String data = request.getParameter("data");
+String email = request.getParameter("email");
+String senha = request.getParameter("senha");
+
 
 
 //busca o objeto plano pelo codigo do objeto.
@@ -14,10 +15,11 @@ String sexo = request.getParameter("sexo");
 
 Usuario usuario = new Usuario();
 usuario.setNome(nome);
-usuario.setEndereco(endereco);
-usuario.setApelido(apelido);
-usuario.setIdade(Integer.parseInt(idade));
-usuario.setSexo(sexo);
+usuario.setEmail(email);
+usuario.setData(data);
+usuario.setSenha(senha);
+
+
 
 
 //a classe de persistência UsuarioBD insere

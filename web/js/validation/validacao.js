@@ -1,25 +1,25 @@
 
 jQuery.validator.addMethod("temExclamacao", function (value, element) {
-    if (value.indexOf("!") >= 0) {
-        return true
+    if (value.indexOf("@") >= 0) {
+        return true;
     } else {
-        return false
+        return false;
     }
-}, "Digite um !")
+}, "Digite um @");
 jQuery.validator.addMethod("temPonto", function (value, element) {
     if (value.indexOf(".") >= 0) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
-}, "Digite um .")
+}, "Digite um .");
 jQuery.validator.addMethod("espaco", function (value, element) {
     if (value.indexOf("") >= 0) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
-}, "Selecione uma opção")
+}, "Selecione uma opção");
 
 
 

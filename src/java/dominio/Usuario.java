@@ -1,12 +1,13 @@
+
 package dominio;
 
+
 public class Usuario {
-    private int codigo;
-    private String endereco;
-    private String sexo;
+   private int codigo;
     private String nome;
-    private String apelido;
-    private int idade;
+    private String email;
+    private String data;
+    private String senha; 
 
     public int getCodigo() {
         return codigo;
@@ -14,22 +15,6 @@ public class Usuario {
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
-    }
-
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
-    }
-
-    public String getSexo() {
-        return sexo;
-    }
-
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
     }
 
     public String getNome() {
@@ -40,20 +25,29 @@ public class Usuario {
         this.nome = nome;
     }
 
-    public String getApelido() {
-        return apelido;
+    public String getEmail() {
+        return email;
     }
 
-    public void setApelido(String apelido) {
-        this.apelido = apelido;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public int getIdade() {
-        return idade;
+    public String getData() {
+        return data;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
+    public void setData(String data) {
+        this.data = data;
     }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+    
     
 }

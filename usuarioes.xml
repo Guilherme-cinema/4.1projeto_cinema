@@ -7,4 +7,20 @@
     <apelido>iuh!g</apelido>
     <idade>10</idade>
   </usuario>
+  <usuario>
+    <codigo>22</codigo>
+    <endereco>Rua Vereador Guilherme Bittencourt Ferraz</endereco>
+    <sexo>M</sexo>
+    <nome>guigu igiugig0</nome>
+    <apelido>iuhg!</apelido>
+    <idade>11</idade>
+  </usuario>
+  <usuario>
+    <codigo>23</codigo>
+    <endereco>Rua Vereador Guilherme Bittencourt Ferraz</endereco>
+    <sexo>M</sexo>
+    <nome>guiguigiugig</nome>
+    <apelido>iuhg!</apelido>
+    <idade>3</idade>
+  </usuario>
 </list>

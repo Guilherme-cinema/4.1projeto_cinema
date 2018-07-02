@@ -120,17 +120,7 @@
                                 
                             </div>
                             
-                            <div class="form-row">
-                                <div class="form-group col-sm-6">
-                                    <label>Foto</label>
-                                    <input type="url" class="form-control" name="apelido" placeholder="Apelido" value=""/>
-                                </div>
-                                <div class="form-group col-sm-6">
-                                    <label>Link Do Trailer</label>
-                                    <input type="text" class="form-control" name="link" placeholder="Apelido" value=""/>
-                                </div>
-                                
-                            </div>
+                          
                             
                             <input class="btn btn-primary" type="submit" value="Salvar"/>
                         </form>
