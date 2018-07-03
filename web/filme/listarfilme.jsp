@@ -1,7 +1,8 @@
+<%@page import="java.io.File"%>
 <%@page import="persistencia.FilmeBD"%>
+<%@page import="java.util.ArrayList"%>
 <%@page import="dominio.Filme"%>
 
-<%@page import="java.util.ArrayList"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -50,7 +51,6 @@
         <%
             ArrayList<Filme> lista = FilmeBD.listaF();
         %>
-        
         <table class="table">
             <thead class="thead-dark">
                 <tr>
@@ -74,7 +74,24 @@
                     <td><%=cadaFilme.getSinopse()%></td>
                     <td><%=cadaFilme.getGenero()%></td>
                     <td><%=cadaFilme.getFoto()%></td>
-                    <td><%=cadaFilme.getLinkTrailer()%></td>
+                    <td><%=cadaFilme.getLink()%></td>
+                     <td>
+                        <%
+                        String filePath = "C:\\Users\\guilherme martins pe\\Desktop\\3° Trab\\3°Av_proj_Cine\\fotos\\";
+                        File file = new File( filePath + cadaFilme.getCodigo() + ".jpg") ;
+                        if (file.exists()){
+                            %>
+                            <img src="../fotos/<%=cadaFilme.getCodigo()%>.jpg" width="80" />
+                            <%
+                        }
+                        %>
+                        
+                        <form name="formCadastro" enctype="multipart/form-data" method="post" action="upload.jsp?codigo=<%=cadaFilme.getCodigo()%>">
+                            <input type="file" name="foto" />
+                            <input type="submit" name="enviar" value="Enviar foto" />
+                        </form>
+                    </td>
+
                     <td>
                         <a href="excluir.jsp?codigo=<%=cadaFilme.getCodigo()%>" onclick="return confirm('Deseja realmente excluir?')">Excluir</a>
                     </td>

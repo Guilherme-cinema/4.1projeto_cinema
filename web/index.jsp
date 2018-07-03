@@ -103,7 +103,8 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="filme/filmes.jsp">Filmes</a>
+                        <a class="nav-link" href="filme/Filme/filmes.jsp">Filmes</a>
+                        
                     </li>
 
                     <li class="nav-item">
@@ -137,6 +138,7 @@
 
                         <form class="modal-content animate" action="login/login.jsp">
 
+
                             <div class="imgcontainer">
                                 <span onclick="document.getElementById('id01').style.display = 'none'" class="close" title="Close Modal">&times;</span>
                                 <img src="login/img/log_cine.png" alt="login" class="avatar">
@@ -144,13 +146,16 @@
                             </div>
 
                             <div class="container">
+
                                 <label for="uname"><b>E-mail</b></label>
                                 <input type="text" placeholder="Escreva seu e-mail" name="uname" required>
 
                                 <label for="psw"><b>Senha</b></label>
-                                <input type="password" placeholder="Escreva sua senha" name="psw" required>
+                                <input type="password" placeholder="Escreva sua senha" name="senha" required>
 
-                                <button type="submit">Login</button>
+                                
+
+                                <button <input type="submit" name="entrar" value="Entrar" /></button>
 
                             </div>
 

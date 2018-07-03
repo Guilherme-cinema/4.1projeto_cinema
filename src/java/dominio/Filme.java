@@ -1,21 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package dominio;
 
-/**
- *
- * @author guilherme martins pe
- */
+
 public class Filme {
     private int codigo;
     private String titulo;
     private String sinopse;
     private String genero;
     private String foto;
-    private String linkTrailer;
+    private String link;
 
     public int getCodigo() {
         return codigo;
@@ -57,13 +50,15 @@ public class Filme {
         this.foto = foto;
     }
 
-    public String getLinkTrailer() {
-        return linkTrailer;
+    public String getLink() {
+        return link;
     }
 
-    public void setLinkTrailer(String linkTrailer) {
-        this.linkTrailer = linkTrailer;
+    public void setLink(String link) {
+        this.link = link;
     }
+
+    
     
     
 }

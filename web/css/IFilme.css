@@ -18,7 +18,7 @@ ul {
 }
 #vazio_direto{
     height: 150px;
-    background-color:#00ff66;
+    background-color:#007bff;
 }
 conteudo{
     height: 700px;
@@ -27,9 +27,9 @@ conteudo{
 
 #rodape{
     height: 200px;
-    background-color: #005cbf;
+    background-color: #00ff66;
 }
 
 .thumbnail{
-    border: 1px solid #000;
+    border: 1px solid #00ff66;
 }

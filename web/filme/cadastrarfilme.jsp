@@ -135,15 +135,17 @@
                                     <div class="form-group col-sm-12">
                                         <label>Link do Filme</label>
                                         <input type="url" class="form-control" name="link" placeholder="Genero do filme" value=""/>
+                                      
                                     </div>
                                 </div>
 
                                 <div class="col-sm-12 col-md-10 col-lg-5 col-xl-5">
                                     <div class="form-group col-sm-12 text-center">
                                         <label>Sinopse</label>
-                                        <input  type="text" class="form-control box input" name="sinopse" placeholder="Escreva a Sinopse" value="" />
+                                        <input  type="text" class="form-control box input" name="sinopse"  value="" />
                                         </br>
                                         <input class="btn btn-primary" type="submit" value="Salvar"/>
+                                         
                                     </div>
                                 </div>
 
@@ -155,8 +157,8 @@
                 </div>
             </div>
         </div>
-        
-          
+
+
 
     </body>
 </html>

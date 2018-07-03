@@ -16,11 +16,14 @@ String link = request.getParameter("link");
 
 Filme filme = new Filme();
 
-Filme filme = new Filme();
 filme.setTitulo(titulo);
+filme.setSinopse(sinopse);
+filme.setGenero(genero);
+filme.setFoto(foto);
+filme.setLink(link);
 
 
-//a classe de persistência UsuarioBD insere
+//a classe de persistência FilmeBD insere
 //o objeto usuario no banco de dados
 FilmeBD.inserir(filme);
 

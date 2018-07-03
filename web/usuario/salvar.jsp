@@ -14,6 +14,7 @@ String senha = request.getParameter("senha");
 
 
 Usuario usuario = new Usuario();
+
 usuario.setNome(nome);
 usuario.setEmail(email);
 usuario.setData(data);

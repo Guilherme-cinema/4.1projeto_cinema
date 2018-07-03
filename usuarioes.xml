@@ -1,26 +1,23 @@
 <list>
   <usuario>
-    <codigo>21</codigo>
-    <endereco>Rua Vereador Guilherme Bittencourt Ferraz</endereco>
-    <sexo>M</sexo>
-    <nome>dead Pool2</nome>
-    <apelido>iuh!g</apelido>
-    <idade>10</idade>
+    <codigo>1</codigo>
+    <nome>Guilherme martins</nome>
+    <email>guiest1998@gmail.com</email>
+    <data>1998-09-15</data>
+    <senha>1526987</senha>
   </usuario>
   <usuario>
-    <codigo>22</codigo>
-    <endereco>Rua Vereador Guilherme Bittencourt Ferraz</endereco>
-    <sexo>M</sexo>
-    <nome>guigu igiugig0</nome>
-    <apelido>iuhg!</apelido>
-    <idade>11</idade>
+    <codigo>2</codigo>
+    <nome>Guilherme martins</nome>
+    <email>guiest1998@gmail.com</email>
+    <data>1998-09-15</data>
+    <senha>123456789</senha>
   </usuario>
   <usuario>
-    <codigo>23</codigo>
-    <endereco>Rua Vereador Guilherme Bittencourt Ferraz</endereco>
-    <sexo>M</sexo>
-    <nome>guiguigiugig</nome>
-    <apelido>iuhg!</apelido>
-    <idade>3</idade>
+    <codigo>2</codigo>
+    <nome>Guilherme martins</nome>
+    <email>guiest1998@gmail.com</email>
+    <data>1998-09-15</data>
+    <senha>123456789</senha>
   </usuario>
 </list>
